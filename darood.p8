@@ -9,7 +9,6 @@ function _init()
 end
 
 function _update()
- cls()
  if btn(0) then x -= 1 end
  if btn(1) then x += 1 end
  if btn(2) then y -= 1 end
@@ -258,7 +257,7 @@ __music__
 00 01010101
 00 00000000
 00 01010101
-00 00000000
+02 00000000
 00 00000000
 00 00000000
 00 00000000
